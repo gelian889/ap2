@@ -1,17 +1,32 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(63, 255, 104);
+    background-color: rgb(155, 104, 46);
 }
 header,footer{
 
     width: 100%;
-    background-color: rgb(255, 119, 119);
+    background-color: rgb(62, 160, 32);
 }
+
 header{
     height: 15vh;
+    color: rgb(255, 255, 255);
 }
 
 footer{
     height: 5vh;
+} 
+
+.contPrincipal{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 5%;
+}
+h3{
+    font-size: 100%;
+    font-family: 30;
+    color: rgb(255, 255, 255);
+    text-align: right;
 }
